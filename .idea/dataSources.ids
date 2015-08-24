@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - testJDBC@localhost" uuid="dbee93fb-76d5-491f-b7ef-d328eacb01b3">
+    <database-info product="MySQL" version="5.5.44-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="testJDBC"/>
+    <table name="student" schema="" catalog="testJDBC" type="TABLE">
+      <column name="studentID" sqlType="CHAR" precision="4" scale="0" nullable="false" jdbcType="1" def="Jyc="/>
+      <column name="studentName" sqlType="VARCHAR" precision="15" scale="0" nullable="true" jdbcType="12"/>
+      <column name="sex" sqlType="CHAR" precision="6" scale="0" nullable="true" jdbcType="1"/>
+      <column name="classNum" sqlType="CHAR" precision="7" scale="0" nullable="true" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="studentID"/>
+    </table>
+    <table name="teacher" schema="" catalog="testJDBC" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="CHAR" precision="10" scale="0" nullable="true" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+  </data-source>
+</component>
